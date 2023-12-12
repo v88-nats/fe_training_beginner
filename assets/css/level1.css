@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+}
+#wrapper {
+  background-color: #F3F3F3;
+}
+#wrapper #main_container {
+  background-color: #D9D9D9;
+  height: 100vh;
+  margin: auto;
+  padding: 32px 50px;
+  width: 500px;
+}
+#wrapper #main_container label {
+  border: none;
+  display: flex;
+  font: 700 14px "Inter";
+  justify-content: space-between;
+  margin-bottom: 7px;
+  outline: none;
+}
+#wrapper #main_container select {
+  appearance: none;
+  background: url("../images/polygon.png") no-repeat 215px 10px;
+  background-color: #FFFFFF;
+  display: block;
+  height: 30px;
+  outline: none;
+  padding: 5px 10px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+#wrapper #main_container select option {
+  font: 400 14px "Inter";
+}
+#wrapper #main_container #images_container #images_list {
+  list-style: none;
+}
+#wrapper #main_container #images_container #images_list li {
+  display: inline;
+}
+#wrapper #main_container #images_container #images_list li .images {
+  margin-right: 10px;
+}
+#wrapper #image_clone_container {
+  display: none;
+}
